@@ -1181,7 +1181,7 @@ export default function Toolbox() {
 export async function getStaticProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common', 'toolbox']))
+      ...(await serverSideTranslations(locale, [  'toolbox']))
     }
   };
 }

@@ -240,7 +240,7 @@ export default function About() {
 export async function getStaticProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common', 'about']))
+      ...(await serverSideTranslations(locale, [ 'about']))
     }
   };
 }
