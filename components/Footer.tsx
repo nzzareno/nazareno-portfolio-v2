@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import { SubscribeSize } from '@/lib/types';
 import siteMetadata from '@/data/siteMetadata';
 
 const navigation = {
