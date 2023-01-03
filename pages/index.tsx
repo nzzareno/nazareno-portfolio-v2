@@ -9,21 +9,12 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 export default function Home() {
-  const { push, locale, locales } = useRouter();
+  const { locale, locales } = useRouter();
   const { t: translate } = useTranslation('home');
-  console.log(translate('page title'));
-  console.log(translate('first greeting'));
 
   return (
     <Container showCircles title={translate('page title')}>
       <div className="-mt-[7rem] ">
-        <h1>LOCALE:{locale}</h1>
-        <h1>
-          {locales?.map((locale, idx) => (
-            <p key={idx}>{locale}</p>
-          ))}
-        </h1>
-
         <div>
           <div className="grid items-center grid-cols-1 text-center md:text-left md:grid-cols-6">
             <h1 className="order-2 col-span-5 xlg:col-span-4 text-4xl leading-1 md:leading-normal md:order-1 sm:text-4xl mb-0">

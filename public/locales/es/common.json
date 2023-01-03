@@ -1,1 +1,7 @@
- 
+{
+  "home": "Inicio",
+  "about": "Sobre mí",
+  "projects": "Proyectos",
+  "change theme dark": "Cambiar a tema oscuro",
+  "change theme light": "Cambiar a tema claro"
+}
