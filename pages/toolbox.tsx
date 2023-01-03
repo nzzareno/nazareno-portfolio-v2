@@ -1178,10 +1178,10 @@ export default function Toolbox() {
   );
 }
 
-export async function getStaticProps({ locale }) {
+export async function getServerSideProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, [  'toolbox']))
+      ...(await serverSideTranslations(locale, ['common', 'toolbox']))
     }
   };
 }

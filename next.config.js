@@ -8,5 +8,6 @@ module.exports = {
       'res.cloudinary.com'
     ]
   },
-  i18n
+  i18n,
+  
 };

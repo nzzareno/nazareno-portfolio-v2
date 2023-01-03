@@ -1,5 +1,5 @@
 import { Container } from 'layouts/Container';
-import { useTranslation } from 'next-i18next';
+import { i18n, useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 export default function Projects() {
@@ -149,10 +149,10 @@ export default function Projects() {
   );
 }
 
-export async function getStaticProps({ locale }) {
+export async function getServerSideProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, [  'projects']))
+      ...(await serverSideTranslations(locale, ['common', 'projects']))
     }
   };
 }
