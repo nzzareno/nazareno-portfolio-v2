@@ -1,0 +1,20 @@
+{ "page title": "Caja de herramientas - Nazareno Garma",
+  "toolbox title": "Herramientas y software que uso todos los días.",
+  "theme": "#tema",
+  "music": "#música",
+  "font": "#fuente",
+  "apps": "#apps",
+  "OS": "#OS",
+  "coding": "#codificación",
+  "extension" : "#extensión",
+  "check it out": "Échale un vistazo",
+  "spotify sentence": "Realmente disfruto este servicio de transmisión de música.",
+  "monolisa sentence": "Una fuente monoespaciada para desarrolladores.",
+  "vscode sentence": "Mi editor de código de elección. Probé todos los demás: ¡VSCode es el mejor!",
+  "horizon sentence": "Un tema oscuro para VS Code de Alexander Nanberg.",
+  "intellij sentence": "Un IDE de Java de JetBrains.",
+  "copilot sentence": "Una nueva herramienta IA con autocompletado de código.",
+  "prettier sentence": "Un formateador de código.",
+  "ubuntu sentence": "Una distribución de Linux gratuita y de código abierto."
+
+}

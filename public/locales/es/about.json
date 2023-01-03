@@ -1,0 +1,22 @@
+{
+  "page title": "Sobre mí - Nazareno Garma",
+  "about title": "Esta es mi historia",
+  "first about greeting": "Soy Nazareno, desarrollador, codificador creativo que se especializa en el desarrollo con stack MERN. Mi misión es traducir diseños centrados en el usuario en sitios web con píxeles perfectos que se ejecutan a una velocidad increíble.",
+  "second about greeting": "He culminado exitosamente la carrera de desarrollo web full stack de la institución educativa Coderhouse y durante este periodo aprendí diferentes tecnologías tanto para desarrollo frontend como backend.",
+  "third about greeting": "Me considero una persona honesta, responsable, así como detallista, con ganas de seguir aprendiendo nuevas habilidades y tecnologías con pasión por mi crecimiento profesional. También soy muy comprometido con las tareas que se me asignan, dando mi mejor esfuerzo para completar las tareas con el mejor resultado y en el menor tiempo posible.",
+
+  "fourth about greeting": "Radicado en Córdoba, Argentina.",
+  "fifth about greeting": "Puedes encontrarme en Twitter, donde comparto cositas relacionadas con la tecnología, o puedes seguirme en GitHub.",
+  "education": "Educación",
+  "education sentence": "Estos son algunos de los cursos y carreras que he tomado para mejorar mis habilidades.",
+  "first left table": "Desarrollador MERN",
+  "second left table": "Máster completo en Java de cero a experto",
+  "third left table": "Escuela de Desarrollo Web",
+  "progress": "En progreso",
+  "second right table": "Programación orientada a objetos y patrones de diseño (GoF), recursividad, programación funcional, expresiones lambda y secuencias API de Java 8, subprocesos, concurrencia, pruebas unitarias con JUnit 5, Mockito, Java EE 9 Web Servlets/JSP, Weld CDI, JPA/Hibernate , JavaServer Faces (JSF), PrimeFaces, AJAX, Enterprise JavaBeans (EJB), RESTful API (JAX-RS), SOAP Web Services (JAX-WS), JAAS Security, JBoss Wildfly Application Server, Spring Boot y desarrollo Full Stack con Angular y Spring.",
+  "third right table": "Finalizados los cursos de NestJS, TailwindCSS, Redux y Java. Actualmente estudiando NextJS.",
+  "resume view": "Ver mi currículum",
+  "interested tools": "¿Interesado en mis herramientas?",
+  "interested tools sentence": "Aquí hay una lista de software, aplicaciones, extensiones y una lista de suministros que uso para configurar mi computadora para aquellos que estén interesados.",
+  "checkout toolbox": "Mira mi caja de herramientas"
+}

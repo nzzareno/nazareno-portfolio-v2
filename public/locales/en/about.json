@@ -1,0 +1,22 @@
+{
+  "page title": "About - Nazareno Garma",
+  "about title": "Here's my story.",
+  "first about greeting": "I’m Nazareno, a developer, creative coder who specializes in MERN stack development. My mission is to translate user-focussed designs into pixel-perfect websites or applications that run blazing fast.",
+  "second about greeting": "I have successfully completed the full stack web development career of the educational institution Coderhouse and during this period I learned different technologies for both frontend and backend development.",
+  "third about greeting": "I consider myself an honest, responsible person, as well as detail-oriented, eager to continue learning new skills and technologies with a passion for my professional growth. I am also very committed to the tasks assigned to me, giving my best effort to complete the tasks with the best result and in the shortest possible time.",
+
+  "fourth about greeting": "Based in Córdoba, Argentina.",
+  "fifth about greeting": "You can find me on Twitter where I share tech-related tidbits, or you can follow me on GitHub.",
+  "education": "Education",
+  "education sentence": "Here are some of the courses and careers I've taken to improve my skills.",
+  "first left table": "MERN Stack Developer",
+  "second left table": "Complete Master in Java from zero to expert",
+  "third left table": "Web Development School",
+  "progress": "In progress",
+  "second right table": "Object-oriented programming and design patterns (GoF), recursion, functional programming, lambda expressions and Java 8 API streams, threads, concurrency, unit testing with JUnit 5, Mockito, Java EE 9 Web Servlets/JSP, Weld CDI, JPA/Hibernate, JavaServer Faces (JSF), PrimeFaces, AJAX, Enterprise JavaBeans (EJB), RESTful API (JAX-RS), SOAP Web Services (JAX-WS), JAAS Security, JBoss Wildfly Application Server, Spring Boot and Full Stack development with Angular and Spring.",
+  "third right table": "NestJS, TailwindCSS, Redux and Java courses finished. Currently studying NextJS.",
+  "resume view": "View my resume",
+  "interested tools": "Interested in my tools?",
+  "interested tools sentence": "Here's a list of software, apps, extensions, and a list of supplies I use to set up my computer for those who are interested.",
+  "checkout toolbox": "Check out my toolbox"
+}

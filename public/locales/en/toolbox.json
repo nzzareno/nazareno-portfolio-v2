@@ -1,0 +1,20 @@
+{
+  "page title": "Toolbox - Nazareno Garma",
+  "toolbox title": "Tools and software I use every day.",
+  "theme": "#theme",
+  "music": "#music",
+  "font": "#font",
+  "apps": "#apps",
+  "OS": "#OS",
+  "coding": "#coding",
+  "extension": "#extension",
+  "check it out": "Check it out",
+  "spotify sentence": " I really enjoy this music streaming service.",
+  "monolisa sentence": "A monospaced font for developers.",
+  "vscode sentence": "My code editor of choice. I’ve tried all the others out there - VSCode just works best for me!",
+  "horizon sentence": "A dark theme for VS Code by Alexander Nanberg.",
+  "intellij sentence": "A Java IDE by JetBrains.",
+  "copilot sentence": "A new AI-powered code completion tool.",
+  "prettier sentence": "An opinionated code formatter.",
+  "ubuntu sentence": "A free and open-source Linux distribution."
+}

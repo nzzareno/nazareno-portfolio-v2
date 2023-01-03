@@ -1,0 +1,13 @@
+{
+  "page title": "Proyectos - Nazareno Garma",
+  "projects title": "Mis proyectos favoritos.",
+  "project paragraph": "Me encanta aprender y ponerme a prueba 24/7. Considero que la mejor manera de aprender es haciendo, por lo que siempre estoy realizando proyectos personales.",
+  "first project title": "Conversor De Divisas Mundial",
+  "first project sentence": "Conversor de moneda estático hecho con HTML, CSS y JavaScript. Muestra el tipo de cambio de las monedas.",
+  "second project title": "Carvel Ecommerce",
+  "second project sentence": "Realizado con React y Firebase 9 para el curso de React en Coderhouse.",
+  "third project title": "One Comfort Ecommerce",
+  "third project sentence": "Sitio web de comercio electrónico simple que hice para el negocio de mi amigo con chat en tiempo real incluido. Está construido con pila MERN (MongoDB, Express, React, Node.js), JWT, Google OAuth, Paypal API, Websockets (Socket.io).",
+  "four project title": "Generador de Contraseñas",
+  "four project sentence": "Crea claves aleatorias con diferentes opciones a elegir como longitud y tipos de inclusión (minúsculas, mayúsculas, números y símbolos) También cuenta con un medidor de seguridad que indica el nivel de seguridad que contiene tu contraseña generada según las opciones que hayas elegido."
+}

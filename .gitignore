@@ -23,8 +23,7 @@ npm-debug.log*
 yarn.lock
 package-lock.json
 
-public/sitemap.xml
-public/feed.xml
+ 
 /.cache/
 /.ionic
 /.sass-cache
@@ -36,7 +35,7 @@ public/feed.xml
 .env.local
 .env.development
 .env.local
-/public
+ 
 .netlify
 /node_modules
 /platforms
