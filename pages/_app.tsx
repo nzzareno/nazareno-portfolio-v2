@@ -6,10 +6,7 @@ import { appWithTranslation } from 'next-i18next';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <PlausibleProvider
-      domain="https://garmanazareno.vercel.app/"
-      trackOutboundLinks={true}
-    >
+    <PlausibleProvider domain="example.com" trackOutboundLinks={true}>
       <ThemeProvider attribute="class">
         <Component {...pageProps} />
       </ThemeProvider>

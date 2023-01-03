@@ -6,7 +6,7 @@ module.exports = {
     locales: ['en', 'es'],
     domains: [
       {
-        domain: 'garmanazareno.vercel.app',
+        domain: 'https://garmanazareno.vercel.app',
         defaultLocale: 'en'
       }
     ]
