@@ -3,11 +3,10 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 export default function Toolbox() {
-  const {t: translate} = useTranslation('toolbox');
+  const { t: translate } = useTranslation('toolbox');
   return (
     <Container title={translate('page title')}>
       <h1>
-         
         <span className="block max-w-2xl mx-auto    text-4xl font-bold leading-10 text-center sm:text-5xl">
           {translate('toolbox title')}
         </span>
@@ -220,7 +219,7 @@ export default function Toolbox() {
 
         <div className="marquee marquee--reverse dark:marqueeDark dark:marqueeDark--reverse">
           <div className="marquee__group dark:marqueeDark__group">
-          <svg>
+            <svg>
               <use xlinkHref="#html" />
             </svg>
             <svg>
@@ -944,7 +943,7 @@ export default function Toolbox() {
               </div>
               <div className="mt-4">
                 <p className="m-0 mb-3 text-base">
-                 {translate('spotify sentence')}
+                  {translate('spotify sentence')}
                 </p>
                 <span className="text-base">
                   <span>
@@ -970,9 +969,9 @@ export default function Toolbox() {
                 <span className="text-sm">{translate('font')}</span>
                 <span className="text-sm">{translate('coding')}</span>
               </div>
-              <div >
+              <div>
                 <p className="text-base mb-0">
-                  {translate('monolisa sentence')}  
+                  {translate('monolisa sentence')}
                 </p>
                 <span className="text-base">
                   <span>
@@ -1031,7 +1030,9 @@ export default function Toolbox() {
                 <span className="text-sm">#IDE</span>
               </div>
               <div className="mt-4">
-                <p className="m-0 mb-3 text-base">{translate('intellij sentence')}</p>
+                <p className="m-0 mb-3 text-base">
+                  {translate('intellij sentence')}
+                </p>
                 <span className="text-base">
                   <span>
                     <span className="relative  pt-[1.72rem] z-10 hidden md:inline-block">
@@ -1060,7 +1061,7 @@ export default function Toolbox() {
               </div>
               <div className="mt-4">
                 <p className="m-0 mb-3 text-base">
-                  {translate('ubuntu sentence')}  
+                  {translate('ubuntu sentence')}
                 </p>
                 <span className="text-base">
                   <span>
