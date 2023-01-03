@@ -256,7 +256,7 @@ export function NavMenu({}) {
               <li>
                 <NextLink href="/">
                   <a className="hover:text-teal-400 dark:hover:text-teal-500">
-              {translate('home')}
+                    {translate('home')}
                   </a>
                 </NextLink>
               </li>
@@ -383,37 +383,32 @@ export function NavMenu({}) {
                         </svg>
                       )}
                     </div>
-                  
                   </>
                 )}
               </button>
 
               {router.locales.map((l) => (
-            <Link href={router.asPath} locale={l} key={l}>
-              <label
-                className={`${
-                  l === router.locale
-                    ? 'font-[900] text-black dark:text-gray-200'
-                    : 'font-normal text-gray-600 dark:text-gray-400'
-                } 'hidden md:inline-block cursor-pointer px-2   rounded-full hover:bg-gray-100 dark:hover:bg-midnight transition-all'`}
-              >
-                <input
-                  type="checkbox"
-                  className="hidden"
-                  checked={l === router.locale}
-                  onChange={() =>
-                    router.push(router.asPath, router.asPath, { locale: l })
-                  }
-                />
-                {/* put | between l  */}
-                 
+                <Link href={router.asPath} locale={l} key={l}>
+                  <label
+                    className={`${
+                      l === router.locale
+                        ? 'font-[900] text-black dark:text-gray-200'
+                        : 'font-normal text-gray-600 dark:text-gray-400'
+                    } 'hidden md:inline-block cursor-pointer px-2   rounded-full hover:bg-gray-100 dark:hover:bg-midnight transition-all'`}
+                  >
+                    <input
+                      type="checkbox"
+                      className="hidden"
+                      checked={l === router.locale}
+                      onChange={() =>
+                        router.push(router.asPath, router.asPath, { locale: l })
+                      }
+                    />
 
-                {l.toUpperCase()   }
-               
-              </label>
-            </Link>
-          ))}
-              
+                    {l.toUpperCase()}
+                  </label>
+                </Link>
+              ))}
             </div>
           </div>
         </Dialog>
@@ -421,5 +416,3 @@ export function NavMenu({}) {
     </div>
   );
 }
-
- 
