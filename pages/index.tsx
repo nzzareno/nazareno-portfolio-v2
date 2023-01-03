@@ -3,13 +3,11 @@ import { Button } from '@/components/Button';
 import { Container } from 'layouts/Container';
 import Image from 'next/image';
 import siteMetadata from '@/data/siteMetadata';
-import { useRouter } from 'next/router';
 import { Footer } from '@/components/Footer';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 export default function Home() {
-  const { locale, locales } = useRouter();
   const { t: translate } = useTranslation('home');
 
   return (

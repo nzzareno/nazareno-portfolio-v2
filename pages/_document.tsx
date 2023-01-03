@@ -5,7 +5,7 @@ export default function Document(props) {
   return (
     <Html lang="en">
       <Head>
-        <link rel="shortcut icon" href="/favicon-32x32.png" />
+        <link rel="shortcut icon" href="/images/favicon-32x32.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap"
           rel="stylesheet"
