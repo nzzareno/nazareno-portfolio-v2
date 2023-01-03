@@ -29,7 +29,7 @@ export default function About() {
   return (
     <Container title={translate('page title')}>
       <h1>
-        <span className="block max-w-2xl mx-auto text-4xl font-bold leading-10 text-center sm:text-5xl">
+        <span className="block max-w-2xl mt-3 mx-auto text-4xl font-bold leading-10 text-center sm:text-5xl">
           {translate('about title')}
         </span>
       </h1>
@@ -51,7 +51,7 @@ export default function About() {
           />
         </div>
         <div className="col-span-3">
-          <p className="xl:mt-[1.6rem]">{translate('third about greeting')}</p>
+          <p className="xl:mt-[1.3rem]">{translate('third about greeting')}</p>
           <p className="">{translate('fourth about greeting')}</p>
           <p>{translate('fifth about greeting')}</p>
         </div>
@@ -219,7 +219,7 @@ export default function About() {
         
           </Button>
         </div>
-        <div className="col-span-2 pb-2  ">
+        <div className="col-span-2 pb-16  ">
           <Image
             className="rounded-xl group-hover:opacity-75"
             objectFit="cover"
