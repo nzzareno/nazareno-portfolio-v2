@@ -6,8 +6,7 @@ const siteMetadata = {
     "I'm Nazareno. Welcome to my corner of the internet. I'm glad you're here!",
   language: 'en-us',
   siteUrl: 'https://garmanazareno.vercel.app',
-  siteRepo: 'https://github.com/nzzareno/nazareno-portfolio',
-
+  siteRepo: 'https://github.com/nzzareno/nazareno-portfolio-v2.git',
   avatarImage:
     'https://res.cloudinary.com/dchmunlh6/image/upload/v1672436252/3d_iupyes.jpg',
   avatarNav:
