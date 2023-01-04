@@ -7,7 +7,7 @@
   "second project title": "Carvel Ecommerce",
   "second project sentence": "Made with React and Firebase 9 for the React course at Coderhouse.",
   "third project title": "One Comfort Ecommerce",
-  "third project sentence": "Simple ecommerce website that I made for my friend's business with real-time based chat included. It's built with MERN stack (MongoDB, Express, React, Node.js), JWT, Google OAuth, Paypal API, Websockets (Socket.io).",
+  "third project sentence": "Simple ecommerce website with real-time based chat included. It's built with MERN stack (MongoDB, Express, React, Node.js), JWT, Google OAuth, Paypal API, Websockets (Socket.io).",
   "four project title": "Password Generator",
   "four project sentence": "Create random keys with different options to choose from such as length and types of inclusion (lowercase, uppercase, numbers and symbols) It also has a security meter that indicates the level of security contained in your password generated according to the options you have chosen."
 }
