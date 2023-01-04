@@ -23,7 +23,7 @@ export default function Projects() {
           className="max-w-full lg:flex border border-gray-400 bg-white dark:border-gray-700  dark:bg-dark  rounded-b hover:transition duration-300 cursor-pointer hover:scale-105 space-y-10
       "
           onClick={() => {
-            window.open('https://nzzareno.github.io/CONVERSOR-MONEDAS/');
+            window.open('https://world-currency-converter-blush.vercel.app/');
           }}
         >
           <div className="p-4 w-[100%] flex flex-col justify-between leading-normal  ">
