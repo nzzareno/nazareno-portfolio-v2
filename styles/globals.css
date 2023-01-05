@@ -57,6 +57,31 @@
   .Home_hand__HQYY5 {
     margin: 1rem 0rem !important;
   }
+
+
+  .marquee svg {
+    display: grid;
+    fill: #000000 !important;
+   
+    width: 5.7rem !important;
+    fill: black !important;
+    background: #f6fbf4;
+    aspect-ratio: 16/9;
+    padding: calc(var(--size) / 10);
+    border-radius: 0.5rem;
+  }
+  @layer base {
+    .marqueeDark svg {
+      display: grid;
+  
+      width: 5.7rem !important;
+      fill: white !important;
+      background: #121b35;
+      aspect-ratio: 16/9;
+      padding: calc(var(--size) / 10);
+      border-radius: 0.5rem;
+    }
+  }
 }
 
 .Home_hand__HQYY5 {

@@ -7,7 +7,7 @@ export default function Toolbox() {
   return (
     <Container title={translate('page title')}>
       <h1>
-        <span className="block max-w-2xl mx-auto   sm:text-5xl text-[2.3rem] font-bold leading-10 text-center ">
+        <span className="block max-w-2xl mx-auto sm:text-5xl text-[2.3rem] font-bold leading-10 text-center ">
           {translate('toolbox title')}
         </span>
       </h1>
@@ -1174,6 +1174,8 @@ export default function Toolbox() {
           </div>
         </div>
       </div>
+      <br />
+      <br />
     </Container>
   );
 }
