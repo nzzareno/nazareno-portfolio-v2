@@ -53,6 +53,12 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .Home_hand__HQYY5 {
+    margin: 1rem 0rem !important;
+  }
+}
+
 .Home_hand__HQYY5 {
   font-family: Roboto, Helvetica, sans-serif;
   color: #1f1f1f;

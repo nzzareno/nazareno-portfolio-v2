@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <Container title={translate('page title')}>
       <h1>
-        <span className="block max-w-2xl mt-3  mx-auto text-4xl font-bold leading-10 text-center sm:text-5xl">
+        <span className="block max-w-2xl mt-3  mx-auto sm:text-5xl text-[2.3rem] font-bold leading-10 text-center  ">
           {translate('projects title')}
         </span>
       </h1>

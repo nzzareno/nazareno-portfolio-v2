@@ -15,9 +15,9 @@ export default function Home() {
       <div className="-mt-[7rem] ">
         <div>
           <div className="grid items-center grid-cols-1 text-center md:text-left md:grid-cols-6">
-            <h1 className="order-2 col-span-5 xlg:col-span-4 text-4xl leading-1 md:leading-normal md:order-1 sm:text-4xl mb-0">
+            <h1 className="order-2 col-span-5  xlg:col-span-4 text-4xl leading-1 md:leading-normal md:order-1 sm:text-4xl mb-0">
               {translate('first greeting')}
-              <span className="text-teal-500 dark:text-teal-400">
+              <span className="text-teal-500  dark:text-teal-400">
                 Nazareno <span className="Home_hand__HQYY5">🤚</span>
               </span>
               <br /> {translate('second greeting')}

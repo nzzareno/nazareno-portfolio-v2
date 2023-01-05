@@ -29,12 +29,12 @@ export default function About() {
   return (
     <Container title={translate('page title')}>
       <h1>
-        <span className="block max-w-2xl mt-3 mx-auto text-4xl font-bold leading-10 text-center sm:text-5xl">
+        <span className="block max-w-2xl mt-3 mx-auto sm:text-5xl text-[2.3rem] font-bold leading-10 text-center">
           {translate('about title')}
         </span>
       </h1>
-      <p className="-mt-4">{translate('first about greeting')}</p>
-      <p>{translate('second about greeting')}</p>
+      <p className="-mt-4 sm:text-[1.1rem] text-[1rem]">{translate('first about greeting')}</p>
+      <p className="sm:text-[1.1rem] text-[1rem]">{translate('second about greeting')}</p>
 
       <div className="grid grid-cols-1 gap-0 md:grid-cols-4 md:gap-x-5">
         <div className="col-span-1">
@@ -51,9 +51,9 @@ export default function About() {
           />
         </div>
         <div className="col-span-3">
-          <p className="xl:mt-[1.3rem]">{translate('third about greeting')}</p>
-          <p className="">{translate('fourth about greeting')}</p>
-          <p>{translate('fifth about greeting')}</p>
+          <p className="xl:mt-[.77rem] sm:text-[1.1rem] text-[1rem]">{translate('third about greeting')}</p>
+          <p className="sm:text-[1.1rem] text-[1rem]">{translate('fourth about greeting')}</p>
+          <p className="sm:text-[1.1rem] text-[1rem]">{translate('fifth about greeting')}</p>
         </div>
 
         <div id="ezoic-pub-ad-placeholder-116"> </div>
@@ -61,10 +61,10 @@ export default function About() {
       <hr className="my-5 w-full border-none text-center h-10 before:content-[''] before:text-[#D1D5DB] before:text-2xl"></hr>
 
       <div>
-        <h2 className="m-0 text-gray-900 dark:text-white">
+        <h2 className="m-0 text-gray-900 dark:text-white sm:text-[2rem] text-[1.6rem]">
           {translate('education')}
         </h2>
-        <p className="pt-4">{translate('education sentence')}</p>
+        <p className="pt-4 sm:text-[1.2rem] text-[1rem]">{translate('education sentence')}</p>
         <div>
           <article className="relative grid md:grid-cols-5 md:gap-10 before:content-[''] mx-12 before:block before:h-full before:absolute before:left-[-25px] md:before:left-[-37px] before:border-l-2 before:border-gray-300 dark:before:border-gray-700 md:space-x-4 pb-0 md:pb-12">
             <div className="relative md:pb-0 pb-9 md:col-span-2">
@@ -82,7 +82,7 @@ export default function About() {
                     fill="currentColor"
                   ></path>
                 </svg>
-                <h3 className="p-0 m-0 text-[1.4rem]">
+                <h3 className="p-0 m-0 ">
                   {translate('first left table')}
                 </h3>
                 <a
@@ -98,7 +98,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="relative  text-base pb-6 -mt-1 md:border-b md:border-gray-300 md:dark:border-gray-400 md:col-span-3">
+            <div className="relative  pb-6 -mt-1 md:border-b md:border-gray-300 md:dark:border-gray-400 md:col-span-3 text-base">
               HTML, CSS, SASS, Bootstrap, Javascript, GIT, Github, ReactJS,
               Formik, Yup, NodeJS, ExpressJS, MySQL, Sequelize, MongoDB,
               Mongoose, JWT, OAuth 2.0, Passport, Twilio, Nodemailer,
@@ -205,12 +205,12 @@ export default function About() {
           </svg>
         </button>
       </div>
-      <hr className="my-11 pt-1 sm:pt-0 lg:pt-0 lg:pb-16 w-full border-none text-center h-10 before:content-[''] before:text-[#D1D5DB] before:text-2xl"></hr>
+      <hr className="my-8 pt-1 sm:pt-0 lg:pt-0 lg:pb-10 w-full border-none text-center h-10 before:content-[''] before:text-[#D1D5DB] before:text-2xl"></hr>
 
       <div className="grid grid-cols-1 md:grid-cols-5 gap-y-8 md:gap-x-12">
         <div className="col-span-3">
-          <h2 className="mb-3 -mt-[.1rem]">{translate('interested tools')}</h2>
-          <p>{translate('interested tools sentence')}</p>
+          <h2 className="mb-3 -mt-[.1rem] sm:text-[2rem] text-[1.4rem]">{translate('interested tools')}</h2>
+          <p className="sm:text-[1.2rem] text-[1rem]">{translate('interested tools sentence')}</p>
           <Button
             buttonType={ButtonType.PRIMARY}
             onButtonClick={() => push('/toolbox')}
@@ -219,7 +219,7 @@ export default function About() {
         
           </Button>
         </div>
-        <div className="col-span-2 pb-16  ">
+        <div className="col-span-2 pb-7  ">
           <Image
             className="rounded-xl group-hover:opacity-75"
             objectFit="cover"
